@@ -18,7 +18,7 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: test@123
-      MYSQL_DATABASE: tow_tier
+      MYSQL_DATABASE: two_tier
       MYSQL_USER: devops
       MYSQL_PASSWORD: devops
     volumes:
